@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #1b5e57;
+    scroll-behavior: smooth;
+}
+
+.onhead {
+    background: transparent;
+}
+
+.navbar {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background: #1b5e57;
+    z-index: 100%;
+    top: 0;
+    left: 0;
+}
+
+.contact a img {
+    height: 30px;
+    width: 30px;
+}
+
+.text p {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+}
+
+.icon a img {
+    height: 30px;
+    width: 30px;
+}
+
+.assets {
+    padding: 20px;
+    margin-top: 90px;
+}
+
+.assets1 {
+    display: block;
+}
+
+.assets1 li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.assets1 li h1 {
+    color: white;
+}
+
+.assets1 li h5 {
+    color: white;
+    font-size: 20px;
+}
+
+.assets1 li img {
+    height: 30px;
+    width: 30px;
+}
+
+.actionbuttons {
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.deposit1 a {
+    background-color: white;
+    display: block;
+    padding: 15px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.deposit1 a img {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.deposit1 p {
+    color: white;
+    font-size: 20px;
+}
+
+.transaction {
+    background-color: rgb(247, 241, 241);
+    border-radius: 20px 20px 0px 0px;
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 55px;
+}
+
+.transaction h3 {
+    padding: 15px;
+    color: #1b5e57;
+}
+
+.transactions {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.transactions h5 {
+    color: #1b5e57;
+    font-size: 15px;
+}
+
+.transactions h5 p {
+    color: gray;
+}
+
+.picture {
+    display: flex;
+    gap: 15px;
+}
+
+.picture h5 {
+    display: block;
+}
+
+.picture img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+footer {
+    padding: 10px;
+    box-shadow: 1px 1px 2px gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    bottom: 0;
+}
+
+.enter {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.enter .under {
+    padding: 10px;
+    border-bottom: 1px solid #1b5e57;
+}
+
+.enter img {
+    height: 25px;
+    width: 25px;
+}
+
+.enter a {
+    text-decoration: none;
+    color: #1b5e57;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+   .navbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+   }
+.assets1 li {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.actionbuttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.deposit1 a {
+    width: 150px;
+    padding: 8px;
+}
+
+.transactions {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+}
